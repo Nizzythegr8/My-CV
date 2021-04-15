@@ -1,0 +1,45 @@
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+    .content-wrapper {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 15px;
+    }
+    .content-wrapper {
+        width: 95%;
+        margin-left: 2.5%;
+        display: block;
+    }
+    .intro {
+        width: 80%;
+    }
+    .address {
+        width: 40%;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 15px;
+    }
+    .content-wrapper {
+        width: 95%;
+        margin-left: 2.5%;
+        display: block;
+    }
+    .intro {
+        width: 80%;
+    }
+    .address {
+        width: 40%;
+        font-size: 100%;
+    }
+}
