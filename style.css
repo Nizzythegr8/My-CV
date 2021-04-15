@@ -1,0 +1,83 @@
+/* Reusable Components */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: 400;
+    color: #222;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 180%;
+    color: #222;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 120%;
+    color: #1a2479;
+}
+
+h4 {
+    font-size: 110%;
+    color: #171f6d;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+/* Content */
+
+.content-wrapper {
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 10%;
+    padding: 2%;
+    border: 1px solid rgba(27, 27, 27, 0.041);
+    border-radius: 50px;
+    box-shadow: 5px 5px 2px #efefef;
+    text-align: center;
+    background-color: #fdfcfc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    width: 52%;
+    text-align: left;
+}
+
+.intro p {
+    margin-bottom: 10px;
+}
+
+.address {
+    width: 20%;
+    text-align: left;
+    font-size: 80%;
+    margin: 20px 0;
+    line-height: 1.8em;
+}
+
+.details {
+    line-height: 1.8em;
+    margin: 50px 0;
+    font-size: 95%;
+}
+
+.itals {
+    font-style: italic;
+    font-weight: 400;
+}
